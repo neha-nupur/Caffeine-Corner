@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caffeine Corner</title>
+
+    <!-- ----Font Awesome------ -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- -------Css file link------ -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- ----------header section------- -->
+    <header class="header">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="" />
+        <h2>Caffeine Corner</h2>
+      </a>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#products">Products</a>
+        <a href="#review">Review</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+
+      <div class="search-form">
+        <input
+          type="search"
+          name=""
+          id="search-box"
+          placeholder="search here..."
+        />
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/cart-item-01.png" alt="" />
+          <div class="content">
+            <h3>Coffee Seeds</h3>
+            <div class="price">$15.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/Hot Chocolate.png" alt="" />
+          <div class="content">
+            <h3>Hot Chocolate</h3>
+            <div class="price">$28.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/Coffee Roasting Kits.png" alt="" />
+          <div class="content">
+            <h3>Coffee Roasting Kits</h3>
+            <div class="price">$59.99/-</div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <span class="fas fa-times"></span>
+          <img src="images/Coffee Beans.png" alt="" />
+          <div class="content">
+            <h3>Coffee Beans</h3>
+            <div class="price">$19.99/-</div>
+          </div>
+        </div>
+        <a href="#" class="btn">Checkout Now</a>
+      </div>
+    </header>
+
+    <!-- ------Home Section-----  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>One sip and you'll be hooked</h3>
+        <p>
+          Start your day with the perfect cup of coffee. Explore our heavenly
+          offerings and place your order.
+        </p>
+        <a href="#" class="btn">Get Yours Now</a>
+      </div>
+    </section>
+
+    <!-- ------About Section-------  -->
+
+    <section class="about" id="about">
+      <h1 class="heading"><span>about</span> us</h1>
+
+      <div class="row">
+        <div class="image">
+          <img src="images/2.png" alt="" />
+        </div>
+
+        <div class="content">
+          <h3>What Sets Our Coffee Apart?</h3>
+          <p>
+            At our Caffeine Corner, we believe that quality is everything.
+            That's why we take great care in sourcing our coffee beans from
+            ethical and sustainable sources. We then hand-roast our beans in
+            small batches to ensure that every cup is bursting with the full
+            range of rich, complex flavors unique to each variety.
+          </p>
+          <p>
+            Our commitment to craftsmanship and quality extends to every aspect
+            of our brand, from packaging to brewing techniques. We take pride in
+            producing coffee that is not only delicious but also socially
+            responsible and environmentally sustainable. Experience the
+            difference with every sip of our coffee.
+          </p>
+          <a href="#" class="btn">learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------Menu Section-------  -->
+    <section class="menu" id="menu">
+      <h1 class="heading">Our <span>Menu</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/Espresso.png" alt="Espresso" />
+          <h3>Espresso</h3>
+          <div class="price">$2.50 <span>$5.34</span></div>
+          <a href="#" class="btn"> add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="images/Cappuccino.png" alt="Cappuccino" />
+          <h3>Cappuccino</h3>
+          <div class="price">$3.25 <span>$7.50</span></div>
+          <a href="#" class="btn"> add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="images/Macchiato.png" alt="Macchiato" />
+          <h3>Macchiato</h3>
+          <div class="price">$3.99 <span>$8.89</span></div>
+          <a href="#" class="btn"> add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="images/Americano.png" alt="Americano" />
+          <h3>Americano</h3>
+          <div class="price">$2.75 <span>$5.00</span></div>
+          <a href="#" class="btn"> add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="images/Latte.png" alt="Latte" />
+          <h3>Latte</h3>
+          <div class="price">$3.50 <span>$9.62</span></div>
+          <a href="#" class="btn"> add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="images/Irish Coffee.png" alt="Irish Coffee" />
+          <h3>Irish Coffee</h3>
+          <div class="price">$4.50 <span>$10.25</span></div>
+          <a href="#" class="btn"> add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="images/Cold Brew.png" alt="Cold Brew" />
+          <h3>Cold Brew</h3>
+          <div class="price">$3.75 <span>$5.12</span></div>
+          <a href="#" class="btn"> add to cart</a>
+        </div>
+
+        <div class="box">
+          <img src="images/Frappuccino.png" alt="Frappuccino" />
+          <h3>Frappuccino</h3>
+          <div class="price">$4.75 <span>$7.21</span></div>
+          <a href="#" class="btn"> add to cart</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------Products Section-----------  -->
+
+    <section class="products" id="products">
+      <h1 class="heading">Our <span>Products</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/Coffee Beans.png" alt="Coffee Beans" />
+          </div>
+          <div class="content">
+            <h3>Coffee Beans</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$19.99<span>$30.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img src="images/Hot Chocolate.png" alt="Hot Chocolate" />
+          </div>
+          <div class="content">
+            <h3>Hot Chocolate</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$28.99 <span>$50.99</span></div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+          </div>
+          <div class="image">
+            <img
+              src="images/Coffee Roasting Kits.png"
+              alt="Coffee Roasting Kits"
+            />
+          </div>
+          <div class="content">
+            <h3>Coffee Roasting Kits</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$59.99 <span>$78.99</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----Review Section-------  -->
+
+    <section class="review" id="review">
+      <h1 class="heading">Custormer's <span> Review</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="images/Quote.png" alt="" class="quote" />
+          <p>
+            "I love coming to Caffeine Corner to start my day! Their coffee is
+            rich, flavorful, and always hits the spot. Their friendly staff and
+            cozy ambiance complete the coffee shop experience."
+          </p>
+          <img src="images/Ashia Khan.png" class="user" alt="" />
+          <h3>Ashia Khan</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/Quote.png" alt="" class="quote" />
+          <p>
+            "The latte at Caffeine Corner is an absolute treat! It's perfectly
+            balanced, not too sweet or bitter. I appreciate the attention and
+            detail they put into everything they serve. I will definitely be
+            back."
+          </p>
+          <img src="images/Jista Crist.png" class="user" alt="" />
+          <h3>Jista Crist</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="images/Quote.png" alt="" class="quote" />
+          <p>
+            "Caffeine Corner's unique flavor combinations and drink specials
+            always keep me coming back. From the cuppuccino to the Irish Coffee,
+            their drinks are always exciting and delicious. Highly recommend!"
+          </p>
+          <img src="images/Sovit Ranveer.png" class="user" alt="" />
+          <h3>Sovit Rajveer</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------Blogs Section------  -->
+    <section class="blogs" id="blogs">
+      <h1 class="heading">Our <span>Blogs</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="images/Coffee-1.png" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">
+              Coffee Brewing Tips and Tricks to Improve Your Home Brew</a
+            >
+            <span>by admin / 28th June, 2023</span>
+            <p>
+              Elevate your coffee brewing game with our expert tips and tricks
+              for brewing the perfect cup at home. From finding the right grind
+              size to mastering your brewing method...
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/Coffee-2.png" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">
+              The Best Coffee Recipes from Around the World</a
+            >
+            <span>by admin / 4th July, 2023</span>
+            <p>
+              Indulge in a global coffee adventure with our round-up of the
+              world's best coffee recipes. From classic espressos to creamy cafe
+              con leches, explore the many ways to enjoy this beloved...
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="images/Coffee-3.png" alt="" />
+          </div>
+          <div class="content">
+            <a href="#" class="title">
+              The Health Benefits of Drinking Coffee</a
+            >
+            <span>by admin / 21st may, 2023</span>
+            <p>
+              Discover the numerous health benefits of coffee in this
+              informative blog post. From boosting mental clarity to reducing
+              disease risks, learn how coffee can improve your health and
+              wellbeing.
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------Contact Section-------  -->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>Contact</span> Us</h1>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1837636.8663363657!2d84.4874789455474!3d25.897948502670786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed5844f0bb6903%3A0x57ad3fed1bbae325!2sBihar!5e0!3m2!1sen!2sin!4v1684077082369!5m2!1sen!2sin"
+          width="600"
+          height="550"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <form action="">
+          <h3>Get In Touch</h3>
+          <div class="inputBox">
+            <span class="fas fa-user"></span>
+            <input type="text" placeholder="name" />
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-envelope"></span>
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <span class="fas fa-phone"></span>
+            <input type="phone" placeholder="phone" />
+          </div>
+          <input type="submit" value="contact now" class="btn" />
+        </form>
+      </div>
+    </section>
+
+    <!-- ------Footer Section-------  -->
+    <section class="footer">
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+
+      <div class="links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Products</a>
+        <a href="#">Review</a>
+        <a href="#">Blogs</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <div class="credit">
+        created by <span>Neha Nupur</span> | All Right Reserved
+      </div>
+    </section>
+    <!-- ---------Javascript file link-------- -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
