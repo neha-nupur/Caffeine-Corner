@@ -1,7 +1,5 @@
 # Caffeine-Corner
 
-# Caffeine Corner
-
 This is a simple HTML, CSS and Javascript website for Caffeine Corner, a coffee shop. This website has different sections such as the header, home, about, menu, cart, etc. that are briefly described below.
 
 ## Sections
